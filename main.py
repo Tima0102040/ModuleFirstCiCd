@@ -1,6 +1,12 @@
-file = open("text.txt")
-data = file.read()
-words = data.split()
+from mainDef import numLinesAndWords
 
-print('Кількість слів у текстовому файлі:', len(words))
+filename = "text.txt"
+num_lines = 0
+num_words = 0
+
+numLinesAndWords(num_lines, num_words, filename)
+
+
+
+
 
